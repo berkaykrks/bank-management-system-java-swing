@@ -1,5 +1,5 @@
 # bank-management-system-java-swing
-Banka Yönetim Sistemi Dökümantasyonu
+
 Proje Tanımı
 Bu proje, Java Swing kullanılarak geliştirilmiş bir Banka Yönetim Sistemi'ni içermektedir. Sistem, kullanıcıların hesaplarını yönetmelerine, bakiye sorgulamalarına, kredi ödemelerine, para çekme ve yatırma işlemlerine, ve transfer işlemlerine olanak tanır.
 
@@ -30,3 +30,6 @@ Proje, kullanıcı giriş bilgileri ve gerçekleştirilen işlemlere ait veriler
 
 Başlangıç
 Proje çalıştırıldığında, kullanıcılara giriş yapma veya yeni bir hesap oluşturma seçenekleri sunulur. Giriş yapıldıktan sonra, kullanıcılar menüden farklı işlemleri seçebilirler.
+![bnk1](https://github.com/wayolapre/bank-management-system-java-swing/assets/116452877/21412608-a58d-4362-9dbd-058606ab7f04)
+![bnk2](https://github.com/wayolapre/bank-management-system-java-swing/assets/116452877/25f639b6-76d1-40f5-90c0-6c50e91e0705)
+
