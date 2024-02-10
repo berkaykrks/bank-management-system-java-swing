@@ -1,39 +1,55 @@
-# bank-management-system-java-swing
+# Banka Yönetim Sistemi - Java Swing
 
-Proje Tanımı
-Bu proje, Java Swing kullanılarak geliştirilmiş bir Banka Yönetim Sistemi'ni içermektedir. Sistem, kullanıcıların hesaplarını yönetmelerine, bakiye sorgulamalarına, kredi ödemelerine, para çekme ve yatırma işlemlerine, ve transfer işlemlerine olanak tanır.
+Bu proje, Java Swing kullanılarak geliştirilmiş bir banka yönetim sistemi içerir. Proje, banka hesaplarını ve müşterileri yönetmek için kullanılabilir.
 
-Proje Yapısı
-Projede aşağıdaki sınıflar kullanılmaktadır:
+## Özellikler
 
-![bnk1](https://github.com/wayolapre/bank-management-system-java-swing/assets/116452877/21412608-a58d-4362-9dbd-058606ab7f04)
+- Yeni müşteri ekleme
+- Hesap açma ve kapatma
+- Para yatırma ve çekme işlemleri
+- Hesap özeti görüntüleme
+- Müşteri ve hesap bilgilerini güncelleme
+- Transfer işlemleri
+- Kredi ödeme işlemleri
 
-KimlikVeri: Kullanıcı kimlik bilgilerini tutan sınıf.
-KullaniciVerileri: Kullanıcı işlemlerini ve bilgilerini yöneten sınıf.
-BakiyeOgren: Hesap bakiyesini sorgulayan sınıf.
-KrediOdeme: Kredi ödeme işlemlerini gerçekleştiren sınıf.
-ParaCek: Para çekme işlemlerini gerçekleştiren sınıf.
-ParaYatir: Para yatırma işlemlerini gerçekleştiren sınıf.
-TransferYap: Hesaplar arası para transferini gerçekleştiren sınıf.
-KullaniciGiris: Kullanıcı giriş işlemlerini yöneten sınıf.
-KullaniciIslemleri: Kullanıcının gerçekleştirebileceği işlemleri yöneten sınıf.
-KullaniciKayit: Yeni kullanıcı kayıtlarını oluşturan sınıf.
-Kullanım Senaryoları
-Proje, aşağıdaki temel kullanım senaryolarını desteklemektedir:
+## Giriş Ekranı
 
-Kullanıcı Girişi: Kullanıcılar sisteme giriş yapabilir ve kimlik bilgilerini kullanarak hesaplarına erişebilirler.
-Bakiye Sorgulama: Kullanıcılar hesap bakiyelerini sorgulayabilirler.
-Kredi Ödeme: Kullanıcılar kredi borçlarını ödeyebilirler.
-Para Çekme ve Yatırma: Kullanıcılar ATM işlemleri gibi para çekme ve yatırma işlemleri gerçekleştirebilirler.
-Hesaplar Arası Transfer: Kullanıcılar kendi hesapları arasında veya başka bir kullanıcının hesabına para transferi yapabilirler.
-Yeni Kullanıcı Kaydı: Yeni kullanıcılar sisteme kaydolabilirler.
-Veri Saklama
-Proje, kullanıcı giriş bilgileri ve gerçekleştirilen işlemlere ait verileri "veri.json" adlı bir dosyada saklamaktadır. Bu dosya, JSON formatında veri tutar ve program her çalıştığında bu dosyadan verileri yükler ve günceller.
+![2](https://github.com/berkaykrks/bank-management-system-java-swing/assets/116452877/49c5cbd2-e15f-4049-b8bd-2df1340c0cc2)
 
-Başlangıç
-Proje çalıştırıldığında, kullanıcılara giriş yapma veya yeni bir hesap oluşturma seçenekleri sunulur. Giriş yapıldıktan sonra, kullanıcılar menüden farklı işlemleri seçebilirler.
+## Kayıt Ekranı
 
+![1](https://github.com/berkaykrks/bank-management-system-java-swing/assets/116452877/00baac5b-97fb-4149-90a8-c61262796dd0)
 
+## İşlem Seçimi Ekranı
 
-![bnk2](https://github.com/wayolapre/bank-management-system-java-swing/assets/116452877/25f639b6-76d1-40f5-90c0-6c50e91e0705)
+![3](https://github.com/berkaykrks/bank-management-system-java-swing/assets/116452877/ddba19ea-8a8b-441e-9cbb-e0778ec18493)
 
+## Para Çekme Ekranı
+
+![4](https://github.com/berkaykrks/bank-management-system-java-swing/assets/116452877/8d7631ec-f790-4a2d-bacc-0594e4a77844)
+
+## Veri Depolama
+
+Projede verilerin depolanması için JSON teknolojisi kullanılmıştır. Müşteri ve hesap bilgileri JSON dosyalarında tutulur ve işlemler bu dosyalardan gerçekleştirilir. Müşteri kaydı oluşturulduğunda, para giriş-çıkışı yapıldığında, transfer işlemleri gerçekleştirildiğinde ve kredi ödemeleri yapıldığında, JSON dosyaları otomatik olarak güncellenir.
+
+## Kurulum
+
+1. Repoyu klonlayın:
+   ```sh
+   git clone https://github.com/berkaykrks/bank-management-system-java-swing.git
+Projeyi yerel olarak açın ve IDE'nizde çalıştırın.
+Kullanım
+Ana menüden işlemleri seçerek müşteri ve hesap yönetimini gerçekleştirebilirsiniz.
+Yeni müşteri eklemek için "Müşteri Ekle" seçeneğini kullanın ve gerekli bilgileri girin.
+Hesap açmak için "Hesap Aç" seçeneğini kullanın ve ilgili müşteriyi seçin.
+Para yatırma ve çekme işlemleri için "Para Yatır" ve "Para Çek" seçeneklerini kullanın.
+Hesap özetini görmek için "Hesap Özeti" seçeneğini kullanın.
+Transfer işlemleri için "Transfer" seçeneğini kullanın.
+Kredi ödemeleri için "Kredi Ödeme" seçeneğini kullanın.
+Katılıma Açık
+Bu projeye katkıda bulunmak istiyorsanız, lütfen bir pull request gönderin. Yeni özellikler, hata düzeltmeleri veya belgelendirme iyileştirmeleri her zaman hoş karşılanır.
+
+Lisans
+Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına göz atın.
+
+© Ata Berkay Karakuş
